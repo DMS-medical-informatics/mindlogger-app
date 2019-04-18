@@ -16,6 +16,7 @@ import SideBar from './Sidebar';
 import ActivityList from './ActivityList';
 import Login from './Login';
 import ChangeStudy from './ChangeStudy';
+import ScanQr from './ScanQr';
 import ForgotPassword from './ForgotPassword';
 import Consent from './Consent';
 import Signup from './Signup';
@@ -39,6 +40,7 @@ const Navigator = Actions.create(
       <Scene key="consent" component={Consent} />
       <Scene key="sign_up" component={Signup} />
       <Scene key="change_study" component={ChangeStudy} />
+      <Scene key="scan_qr" component={ScanQr} />
       <Scene key="forgot_password" component={ForgotPassword} />
       <Scene key="settings" component={Settings} />
       <Scene key="activity" component={ActivityList} />
